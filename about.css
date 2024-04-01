@@ -1,0 +1,24 @@
+* {
+  line-height: 30px;
+}
+
+body {
+  background-image: url("./index\ final\ image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+h1 {
+  text-align: center;
+  color: revert;
+}
+#goto-home{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+   margin-left: 50%;
+}

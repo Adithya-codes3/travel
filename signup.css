@@ -1,0 +1,79 @@
+body{
+    background-image: url("./index\ final\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+    .indexpage{
+    height: 100vh;
+    }
+    
+    .logo{
+        font-size: 70px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    ul {
+        display: flex;
+    }
+    ul li{
+        list-style-type: none;
+    margin: 0px;    
+    margin-right:50px;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        
+        
+    }
+    ul li a:hover{
+        color:snow;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .div{
+        display: flex;
+        width: 280px;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    #input1{
+        background-color: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .div1{
+        display: flex;
+        align-items: center;
+        width: 350px;
+        justify-content: space-between;
+    }
+    #input1:focus{
+        outline:none;
+    }
+    .form{
+border: 3px solid black;
+border-radius: 5px;
+padding: 30px;
+    }
+    .signup-button{
+        padding :10px 20px;
+        text-align: center;
+      margin-left: 40%;
+    }

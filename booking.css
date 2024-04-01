@@ -1,0 +1,99 @@
+body{
+    background-image: url("./index\ final\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+    .indexpage{
+    height: 100vh;
+    }
+    
+    .logo{
+        font-size: 70px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .contentContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top:20px ;
+    }
+    
+    
+    ul {
+        display: flex;
+    }
+    ul li{
+        list-style-type: none;
+    margin: 0px;    
+    margin-right:50px;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        
+        
+    }
+    ul li a:hover{
+        color:snow;
+    }
+    h2{
+        margin-top: 0px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .form{
+        margin-top: 40px;
+        line-height: 25px;
+    }
+    .form-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .places1{
+       
+        margin-left: 20px;
+        background-color: transparent;
+       
+        border:none;
+        border-bottom: 1px solid black;
+    }
+    .places1:focus{
+        outline:none;
+    }
+  
+    .form-button{
+        margin-left: 70px;
+        padding: 10px 10px;
+        font-weight: 700;
+    }
+    .form{
+        border: 3px solid black;
+        padding:40px;
+        border-radius: 3px;
+    }
+    .text{
+        font-size: 30px;
+        font-weight: bolder;
+        line-height: 50px;
+    }
+    form p{
+        font-weight: bolder;
+    }

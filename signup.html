@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <h1 class="logo">Travel.in</h1>
+      </div>
+      <div class="indextop-links">
+        <ul>
+          <li><a href="#homepage" onclick="homepage()">Home</a></li>
+          <!-- <li><a href="#contact-page" onclick="contact()">Contact</a></li> -->
+          <li><a href="#" onclick="about()">About</a></li>
+          <li><a href="#" onclick="tickets1()">Tickets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <h2>Please Signup to discover the your world..</h2>
+        <p></p>
+      </div>
+      <div class="form">
+        <form>
+          <header style="text-align: center; font-size: 25px; margin-top: -3px">
+            Signup Form
+          </header>
+          <div class="div">
+            <p>First Name:</p>
+            <input type="text" value="" id="input1" />
+          </div>
+          <div class="div">
+            <p>Last Name:</p>
+            <input type="text" value="" id="input1" />
+          </div>
+          <div class="div">
+            <p>Email:</p>
+            <input type="email" value="" id="input1" />
+          </div>
+          <div class="div">
+            <p>Phone No:</p>
+            <input type="number" value="" id="input1" />
+          </div>
+          <div class="div">
+            <p>Create new passcode:</p>
+            <input type="password" value="" id="input1" />
+          </div>
+          <div class="div">
+            <p>conform passcode:</p>
+            <input type="password" value="" id="input1" />
+          </div>
+          <div class="div1">
+            <input type="checkbox" value="" />
+            <p>I accept the terms and conditions of TRAVEL.IN</p>
+          </div>
+          <button onclick="onclick4()" class="signup-button">Signup</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      function onclick4() {
+        alert("Succesful Singup");
+      }
+      function homepage() {
+        window.location.href = "index2.html";
+      }
+      function about() {
+        window.location.href = "about.html";
+      }
+      function tickets1() {
+        window.location.href = "booking.html";
+      }
+    </script>
+  </body>
+</html>

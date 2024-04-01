@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./booking.css" />
+</head>
+
+<body>
+    <div class="indexpage">
+        <header class="header">
+            <h1 class="logo">Travel.in</h1>
+
+            <div class="indextop-links">
+                <ul>
+                    <li><a href="#homepage" onclick="home()">Home</a></li>
+                    <li><a href="#contact-page">Contact</a></li>
+                    <li><a href="#" onclick="onpress2()">About</a></li>
+                    <li><a href="#">Tickets</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="container">
+            <div class="text">
+                <p> "Adventure awaits! Book your tickets now and let your journey begin." </p>
+                <p style="text-align: center;">Please book your tickets....</p>
+            </div>
+
+            <div class="form">
+                <form>
+                    <header style="text-align: center;font-size: 25px;font-weight: bolder;">Book Tickets</header>
+                    <div class="form-content">
+                    <p>From:</p>
+                    
+                    <select  name="places" style="width: 174px;" class="places1">
+                        <option value="Kedarnath">Select places</option>
+                            <option value="Puri">Puri Jagannath</option>
+                                <option value="Madikeri"> Madikeri </option> 
+                                    <option value="Tajmahal">Tajmahal</option>
+                                    </select>
+                
+                </div>
+                <div  class="form-content">
+                    <p>To:</p>
+                    <select  name="places" style="width: 174px;" class="places1">
+                        <option value="Kedarnath">Select places</option>
+                            <option value="Puri">Puri Jagannath</option>
+                                <option value="Madikeri"> Madikeri </option> 
+                                    <option value="Tajmahal">Tajmahal</option>
+                                    </select>
+                
+                    </div>
+                    <div  class="form-content">
+                    <p>Date:</p>
+                    <input type="date" value="" id="input" style="width: 174px;height: 17px;">
+                    </div>
+                    <br>
+                    <button class="form-button"  onclick="onbutton()">Book Ticket</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            function onbutton()
+            {
+                window.alert("Ticket Booked");
+
+            }
+            function onpress2()
+            {
+                window.location.href="about.html";
+            }
+            function homepage()
+            {
+                window.location.href="index2.html";
+            }
+            function home()
+            {
+                window.location.href = "index2.html";
+            }
+        </script>
+</body>
+
+</html>

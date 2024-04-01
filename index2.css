@@ -1,0 +1,149 @@
+body{
+background-image: url("./index\ final\ image.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+background-attachment: fixed;
+
+}
+.indexpage{
+height: 100vh;
+}
+
+.logo{
+    font-size: 70px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:20px ;
+}
+
+
+ul {
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+margin: 0px;    
+margin-right:50px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+ul li a:hover{
+    color:snow;
+}
+h2{
+    margin-top: 0px;
+}
+
+.login-form{
+    border: 3px solid black;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 25px;
+    padding:  30px 10px;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right:none;
+}
+
+input:focus{
+    outline: none;
+}
+.login-button {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.login-button a{
+    text-decoration: none;
+}
+.signup-text a {
+text-decoration: none;
+}
+.h1text{
+    font-size: 30px;
+}
+.scroll-down{
+   
+    margin-left: 400px;
+   border: 2px solid black;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+
+
+}
+.scroll-down:hover{
+    background-color:aquamarine ;
+    border-radius: 5px;
+}
+#name{
+    margin-left: 30px;
+    background-color: transparent;
+}
+.image-text{
+    display: flex;
+    align-items: top;
+    justify-content:space-between;
+}
+.text{
+    width: 800px;
+    line-height: 30px;
+    
+
+}
+.image{
+    margin-left: 80px;
+}
+.image1{
+margin-right: 90px;
+}
+.main-text{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.contact-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+}
+.last-button{
+    text-decoration: none;
+    margin-left: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding :10px 20px;
+}
+.text{
+font-family: cursive;
+font-size: 15px;
+font-weight: bolder;
+}
+.h1text p{
+    
+}
